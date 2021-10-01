@@ -48,6 +48,23 @@ function App() {
         { answerText: 'Colombia', isCorrect: false },
         { answerText: 'Mexico', isCorrect: false }
       ]
+    },
+    {
+      questionText: 'Who invented the light bulb?',
+      answerOptions: [
+        { answerText: 'Newton', isCorrect: false },
+        { answerText: 'Einstein', isCorrect: false },
+        { answerText: 'Edison', isCorrect: true },
+        { answerText: 'Franklin', isCorrect: false }
+      ]
+    },
+    {
+      questionText: 'Who painted the Mona Lisa?',
+      answerOptions: [
+        { answerText: 'Donatello', isCorrect: false },
+        { answerText: 'Michelangelo', isCorrect: false },
+        { answerText: 'Leonardo', isCorrect: true },
+      ]
     }
   ]
 
